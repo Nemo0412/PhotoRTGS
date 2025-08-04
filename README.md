@@ -135,3 +135,18 @@ git clone https://github.com/HuajianUP/Photo-SLAM-eval.git
 
 See the individual README files in `PhotoSLAM/` and `PhotoSLAM_RTGS/` for detailed evaluation instructions.
 
+## 🔗 Related Projects
+
+### MonoGS RTGS Implementation
+For a real-time Gaussian Splatting implementation based on MonoGS, please check out:
+- [MonoGS RTGS Implementation](https://github.com/Nemo0412/MonoRTGS.git)
+
+
+## 🙏 Acknowledgements
+
+This project builds upon the excellent work of the authors of **MonoGS** and **Photo-SLAM**.  
+We gratefully acknowledge their open-source contributions, which make this project possible.
+
+- [MonoGS (CVPR 2024)](https://github.com/muskie82/MonoGS.git)
+- [Photo-SLAM (CVPR 2024)](https://github.com/HuajianUP/Photo-SLAM.git) 
+
