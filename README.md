@@ -38,9 +38,6 @@ PhotoRTGS/
 
 # Replica dataset
 ./run_original.sh rgbd office0 /path/to/replica/dataset /path/to/results
-
-# EuRoC stereo dataset
-./run_original.sh stereo EuRoC /path/to/euroc/dataset /path/to/results
 ```
 
 ### RTGS Photo-SLAM Examples
@@ -51,16 +48,12 @@ PhotoRTGS/
 
 # Replica dataset with RTGS
 ./run_rtgs.sh rgbd office0 /path/to/replica/dataset /path/to/results
-
-# EuRoC stereo dataset with RTGS
-./run_rtgs.sh stereo EuRoC /path/to/euroc/dataset /path/to/results
 ```
 
 ## Supported Dataset Types
 
 - `mono`: Monocular camera datasets
 - `rgbd`: RGB-D camera datasets  
-- `stereo`: Stereo camera datasets
 
 ## Supported Scenes
 
@@ -72,7 +65,6 @@ PhotoRTGS/
 ### Replica Dataset
 - `office0`, `office1`, `office2`
 - `room0`, `room1`, `room2`
-- `apartment0`, `apartment1`, `apartment2`
 
 ## Installation
 
@@ -116,13 +108,11 @@ cd PhotoSLAM/scripts
 chmod +x ./*.sh
 ./download_replica.sh
 ./download_tum.sh
-./download_euroc.sh
 
 cd ../../PhotoSLAM_RTGS/scripts
 chmod +x ./*.sh
 ./download_replica.sh
 ./download_tum.sh
-./download_euroc.sh
 ```
 
 ## Evaluation
