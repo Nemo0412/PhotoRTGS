@@ -128,7 +128,7 @@ See the individual README files in `PhotoSLAM/` and `PhotoSLAM_RTGS/` for detail
 ## 🔗 Related Projects
 
 ### MonoGS RTGS Implementation
-For a real-time Gaussian Splatting implementation based on MonoGS, please check out:
+For a RTGS-SLAM implementation based on MonoGS, please check out:
 - [MonoGS RTGS Implementation](https://github.com/Nemo0412/MonoRTGS.git)
 
 
@@ -139,4 +139,3 @@ We gratefully acknowledge their open-source contributions, which make this proje
 
 - [MonoGS (CVPR 2024)](https://github.com/muskie82/MonoGS.git)
 - [Photo-SLAM (CVPR 2024)](https://github.com/HuajianUP/Photo-SLAM.git) 
-
